@@ -65,10 +65,10 @@
   <!-- system repos -->
   <project path="system/core" name="android_system_core" groups="pdk" remote="matrixx" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="matrixx" />
-  <project path="system/security" name="android_system_security" groups="matrixx" />
+  <project path="system/security" name="android_system_security" remote="matrixx" />
 
   <!--vendor repos-->
-  <project path="vendor/addons" name="android_vendor_addons" remote="matrixx-test"  />
+  <project path="vendor/addons" name="vendor_addons" remote="matrixx-test"  />
   <project path="vendor/lineage" name="android_vendor_lineage" remote="matrixx"  />
   <project path="vendor/gms" name="vendor-gms-matrixx" remote="gitlab" />
   <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="matrixx" />
