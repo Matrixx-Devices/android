@@ -26,9 +26,16 @@ brunch devicecodename
 ### Build Flags ###
 
 ```bash
-# Build Pixel launcher
+# To include Gapps 
+WITH_GMS := true
 
+# To Build Pixel launcher
 TARGET_INCLUDE_NEXUS := true
+```
 
-MATRIXX_MAINTAINER := Diddy
+### To Add Maintainers name 
+```
+# Add in your overlay (overlay/packages/apps/Settings/res/values/cr_strings.xml)
+<string name="matrixx_maintainer">Diddy</string>
+
 ```
