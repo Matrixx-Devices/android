@@ -31,6 +31,11 @@ WITH_GMS := true
 
 # To Build Pixel launcher
 TARGET_INCLUDE_NEXUS := true
+
+#Some more GMS Flag
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_STOCK_AICORE := true
 ```
 
 ### To Add Maintainers name 
